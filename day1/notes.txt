@@ -1,0 +1,7 @@
+Slow, Steady and Consistent, get you there...
+
+Traceback (most recent call last):
+  File "C:\Users\Martin\PycharmProjects\100 Days of Code - The Complete Python Pro Bootcamp\Day 2\Data Types\task.py", line 15, in <module>
+    print(int("acd") + int("456")) # addition
+ValueError: invalid literal for int() with base 10: 'acd'
+
