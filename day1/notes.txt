@@ -1,7 +1,98 @@
-Slow, Steady and Consistent, get you there...
+Slow, Steady and Consistent, get you there... $Python Programmer Career$
 
 Traceback (most recent call last):
   File "C:\Users\Martin\PycharmProjects\100 Days of Code - The Complete Python Pro Bootcamp\Day 2\Data Types\task.py", line 15, in <module>
     print(int("acd") + int("456")) # addition
 ValueError: invalid literal for int() with base 10: 'acd'
 
+conversion functions:
+str()
+float()
+int()
+bool()
+
+TypeError
+These errors occur when you are using the wrong data type. e.g. len(12345)
+
+Because you can only give the len() function Strings, it will refuse to work and give you a TypeError if you give it a number (Integer).
+
+PAUSE 1. Fix the len() function so it has no more warnings or errors.
+Type Checking
+You can check the data type of any value or variable in python using the type() function.
+
+print(type("abc")) #will give you <class 'str'>
+
+PAUSE 2. Write out 4 type checks to print all 4 data types
+Using the type() and print() functions to print out 4 lines into the output area so we get the full collection of data types that we learnt about. <class 'str'> <class 'int'> <class 'float'> and <class 'bool'>
+
+Type Conversion
+You can convert data into different data types using special functions. e.g.
+
+float()
+
+int()
+
+str()
+
+[DAY 2] Type error checking and conversion:
+PAUSE 3 challenge:
+Make this line of code run without errors:
+print("Number of letters in your name: " + str(len(input("Enter your name"))))
+
+CHATGPT:
+The issue is that len(input("Enter your name")) returns an integer, 
+but the + operator expects strings on both sides when used for concatenation. 
+To fix it, you need to convert the integer to a string using str():
+
+SOLUTION:
+print("Number of letters in your name: " + str(len(input("Enter your name"))))
+
+Traceback (most recent call last):
+  File "C:\Users\Martin\PycharmProjects\100 Days of Code - The Complete Python Pro Bootcamp\Day 2\Type Error, Checking and Conversion\task.py", line 4, in <module>
+    print("Number of letters in your name: " + len(input("Enter your name")))
+TypeError: can only concatenate str (not "int") to str
+
+Mathematical Operations:
+print(type(7 / 3))# division always produces a float...
+# this is known as implicit type casting...
+
+# math operators
+print(123 + 567)
+print(9 - 4)
+print(3 * 5)
+print(7 / 3)
+print(type(7 / 3))# division always produces a float...
+# this is known as implicit type casting...
+# this example produces an integer:
+print(7 // 3)
+print(type(7 // 3))
+
+# exponent (raise to the power of)
+print(5**2)
+
+# Order of Operations:
+# PEMDASLR
+#(), **, *, /, +, -
+# the calculation that is more to the left is prioritized
+# between * and /
+# + OR -
+
+print(3 * 3 + 3 / 3 - 3) # 7.0
+
+"""
+Make equation below == 3.0
+print(3 * 3 + 3 / 3 - 3)
+SOLUTION:
+print(3 * (3 + 3) / 3 - 3)
+
+Let's break it down:
+
+    Inside the parentheses: 3+3=6 [3+3 = 6]
+    Multiplication: 3×6=18  [3 * (3+3) = 18]
+    Division: 18/3=6 [18/3]
+    Subtraction: 6−3=3
+
+This way, the expression evaluates to 3 without 
+changing any of the numbers.
+"""
+https://chatgpt.com/c/67daeae3-de14-8009-a995-a9272a727c59
