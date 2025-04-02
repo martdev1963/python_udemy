@@ -191,6 +191,9 @@ mv my_document.txt documents/
 
 Current Task: 27. Logical Operators. (Part of: DAY 3)
 0:00/9:33
-
+# VID_TIME: 4:57 / 21:07  28. DAY 3 - Project: Treasure Island
+# https://www.diffchecker.com/QdUhOBfH/
+# https://viewer.diagrams.net/index.html?highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload#%7B%22pageId%22%3A%22C5RBs43oDa-KdzZeNtuy%22%7D
+# https://www.drawio.com/
 
 DAY 4:
